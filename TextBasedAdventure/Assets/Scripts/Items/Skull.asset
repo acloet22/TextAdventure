@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061560816e5829a47aa51a5fbb71fa04, type: 3}
+  m_Name: Skull
+  m_EditorClassIdentifier: 
+  noun: Skull
+  description: A rather human skull
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 7d5ed748840798b4387970d512606722, type: 2}
+    textResponse: The Skull is Blackened and charred.  Gross
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 793288a79113a4641abc7082340d611b, type: 2}
+    textResponse: You take the skull cool!
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 00728c3a8ee7eab4eab21b7452aeb6c2, type: 2}
+    textResponse: You take the skull cool!
+    actionResponse: {fileID: 11400000, guid: 188884755282fa9459d8551298869e9f, type: 2}
